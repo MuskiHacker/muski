@@ -138,7 +138,7 @@ def ip_log_menu():
     except (KeyError, IOError):
         os.system('clear')
         print logo
-        print '\033[1;90m •×•×•×•×•×•× Login menu •×•×•×•×•×•×\033[1;94m'
+        print '\033[1;90m •×•×•×•× Login menu •×•×•×\033[1;94m'
 	print 47 * '-'
         print '\033[1;94m[1] Login with FaceBook'
         print '\033[1;94m[2] Login with token'
